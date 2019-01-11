@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Mini Bank Project</string>
+
+    Untuk Activity Main
+    <string name="judul_MiniBank">Mini Bank</string>
+    <string name="versi">Versi 1.0</string>
+    <string name="projectOleh">Project by BBT Group</string>
+    <string name="id">User ID :</string>
+    <string name="pass">Password :</string>
+    <string name="masuk">LOGIN</string>
+    <string name="daftar">Bukan member? Registrasi sekarang. </string>
+
+    Untuk Activity Registrasi
+    <string name="regis">REGISTRASI</string>
+    <string name="name">Nama Lengkap:</string>
+    <string name="address">Alamat:</string>
+    <string name="phone">No.Hp:</string>
+    <string name="ktp">No.KTP:</string>
+    <string name="jenisKelamin">Jenis Kelamin:</string>
+    <string name="surel">Email:</string>
+    <string name="uname">User ID:</string>
+    <string name="kunci">Password:</string>
+    <string name="konfirmasi_kunci">Konfirmasi Password:</string>
+    <string name="daftarBaru">REGISTER</string>
+
+    Untuk Menu Utama
+    <string name="main">MINI BANK</string>
+    <string name="hello">Hello! Selamat Datang</string>
+    <string name="tombol_kredit">KREDIT</string>
+    <string name="tombol_debit">DEBIT</string>
+    <string name="tombol_logut">LOGOUT</string>
+    <string name="tombol_help">Help</string>
+
+    Untuk Menu Debit dan Kredit
+    <string name="kredit">Kredit</string>
+    <string name="debit">Debit</string>
+    <string name="infoSaldo">Informasi Saldo</string>
+    <string name="tambahSaldo">Tambah Saldo Tabungan</string>
+    <string name="kurangSaldo">Jumlah Saldo yang Dikeluarkan</string>
+    <string name="simpan">Simpan</string>
+
+    Untuk Update Profile
+    <string name="ubahPass">Data Password </string>
+    <string name="ubahProfil">Data Profil </string>
+    <string name="updtProfil">Update Profil </string>
+    <string name="updtPassword">Update Password </string>
+
+    Untuk Help
+    <string name="langkahHelp">Langkah Penggunaan Aplikasi</string>
+    <string name="langkahKredit">Kredit : Menambahkan sejumlah nominal kedalam Saldo </string>
+    <string name="langkahDebit">Debit : Mengurangi sejumlah nominal kedalam Saldo  </string>
+    <string name="tampilanKredit">Tampilan dari Menu Kredit  </string>
+    <string name="langkahSatu">1. Masukkan nominal yang diinginkan </string>
+    <string name="langkahDua">2. Klik tombol "Simpan" agar tersimpan nominal yang telah dimasukkan</string>
+    <string name="langkahTiga">3. Klik "View" untuk melihat jumlah Saldo yang telah tersimpan</string>
+    <string name="langkahEmpat">4. Anda juga dapat melihat Riwayat transaksi yang telah dilakukan dengan meng-klik tombol yang berada di kanan atas</string>
+    <string name="untukDebit">Untuk Transaksi Debit, Anda juga dapat mengikuti langkah ini.</string>
+    <string name="langkahProfil"> Anda dapat meng-klik "Profile" untuk memperbaharui Profil dan Password Anda.</string>
+    <string name="langkahTolong">  Anda dapat meng-klik "Help" untuk melihat langkah penggunaan aplikasi</string>
+    <string name="langkahReset">Anda dapat meng-klik "Reset Seluruh Transaksi" untuk menghapus seluruh transaksi yang telah Anda lakukan</string>
+    <string name="langkahAbout">Anda dapat meng-klik "About" untuk mengetahui informasi aplikasi</string>
+    <string name="langkahLogout">Anda dapat meng-klik "Log Out" untuk dapat keluar dari Akun Anda</string>
+
+
+</resources>

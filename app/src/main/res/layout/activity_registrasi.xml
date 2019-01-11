@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    tools:context="com.example.aditmail.projectminibank.Registrasi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="casual"
+                android:text="@string/regis"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:fontFamily="casual"
+
+                android:text="@string/name"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputNama"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#7a7a7a"
+                android:ems="10"
+
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:fontFamily="casual"
+                android:text="@string/phone"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputNoHP"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#7a7a7a"
+                android:ems="10"
+
+                android:inputType="phone"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:fontFamily="casual"
+                android:text="@string/surel"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#7a7a7a"
+                android:ems="10"
+
+                android:inputType="textWebEmailAddress"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="35dp"
+                android:clickable="true"
+                android:fontFamily="casual"
+                android:text="@string/uname"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputUsername"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#7a7a7a"
+                android:ems="10"
+
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:fontFamily="casual"
+                android:text="@string/kunci"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#7a7a7a"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:fontFamily="casual"
+                android:text="@string/konfirmasi_kunci"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputKonfirmasiPassword"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#7a7a7a"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginRight="85dp"
+                android:layout_marginTop="25dp"
+                android:background="?attr/colorAccent"
+                android:fontFamily="monospace"
+                android:text="@string/daftarBaru"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
